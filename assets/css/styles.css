@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #eae7dc;
+    --secondary-color: #d8c3a5;
+    --tertiary-color: #8e8d8a;
+    --quaternary-color: #e98074;
+    --quinary-color: #e85a4f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+
+header {
+    color: var(--quinary-color);
+    font-size: 15vw;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
